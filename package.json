@@ -1,0 +1,30 @@
+{
+  "name": "jwt_auth_backend",
+  "version": "1.0.0",
+  "description": "Complete example to demonstrate JWT authentication using express nodejs server.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muskanqed/JWT_Auth_Backend.git"
+  },
+  "keywords": [
+    "JWT",
+    "Backend"
+  ],
+  "author": "muskan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muskanqed/JWT_Auth_Backend/issues"
+  },
+  "homepage": "https://github.com/muskanqed/JWT_Auth_Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
